@@ -1,0 +1,38 @@
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.exe
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.deps.json
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.runtimeconfig.json
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.dll
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.pdb
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.csproj.GenerateResource.cache
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.AssemblyInfo.cs
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.dll
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\refint\Order Manager.dll
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.pdb
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.genruntimeconfig.cache
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\ref\Order Manager.dll
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order_Manager.Form1.resources
+C:\Users\user\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order_Manager.Order_Manger_Screen.resources
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.exe
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.deps.json
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.runtimeconfig.json
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.dll
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Order Manager.pdb
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order_Manager.Form1.resources
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order_Manager.Order_Manger_Screen.resources
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.csproj.GenerateResource.cache
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.AssemblyInfoInputs.cache
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.AssemblyInfo.cs
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.csproj.CoreCompileInputs.cache
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.dll
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\refint\Order Manager.dll
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.pdb
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.genruntimeconfig.cache
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\ref\Order Manager.dll
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\bin\Debug\net9.0-windows\Newtonsoft.Json.dll
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.csproj.AssemblyReference.cache
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Ma.042B593A.Up2Date
+C:\Users\basem\source\repos\14 - C# - Level 1\Desktop app\Order Manager\obj\Debug\net9.0-windows\Order Manager.sourcelink.json

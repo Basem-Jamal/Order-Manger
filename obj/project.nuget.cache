@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HRXa2t+lUig=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\basem\\source\\repos\\14 - C# - Level 1\\Desktop app\\Order Manager\\Order Manager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\basem\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
