@@ -1,43 +1,40 @@
 ﻿using System.ComponentModel;
+using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Windows.Forms;
 
-namespace Order_Manager
+public class GradientPanel : Panel
 {
-    public class GradientPanel : Panel
+    [Browsable(true)]
+    [Category("Appearance")]
+    [Description("اللون الأول للتدرج")]
+    [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+    public Color Color1 { get; set; } = Color.FromArgb(44, 62, 80); // غامق
+
+    [Browsable(true)]
+    [Category("Appearance")]
+    [Description("اللون الثاني للتدرج")]
+    [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+    public Color Color2 { get; set; } = Color.FromArgb(189, 195, 199); // فاتح
+
+    [Browsable(true)]
+    [Category("Appearance")]
+    [Description("اتجاه التدرج")]
+    [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+    public LinearGradientMode GradientMode { get; set; } = LinearGradientMode.Vertical;
+
+    public GradientPanel()
     {
-        [Browsable(true)]
-        [Category("Appearance")]
-        [Description("اللون الأول للتدرج")]
-        [DefaultValue(typeof(Color), "#2c3e50")]
-        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
-        public Color Color1 { get; set; } = ColorTranslator.FromHtml("#2c3e50");
+        this.DoubleBuffered = true;
+        this.ResizeRedraw = true;
+        this.Dock = DockStyle.Fill;
+    }
 
-        [Browsable(true)]
-        [Category("Appearance")]
-        [Description("اللون الثاني للتدرج")]
-        [DefaultValue(typeof(Color), "#bdc3c7")]
-        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
-        public Color Color2 { get; set; } = ColorTranslator.FromHtml("#bdc3c7");
-
-        [Browsable(true)]
-        [Category("Appearance")]
-        [Description("اتجاه التدرج")]
-        [DefaultValue(LinearGradientMode.Horizontal)]
-        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
-        public LinearGradientMode GradientMode { get; set; } = LinearGradientMode.Horizontal;
-
-        public GradientPanel()
+    protected override void OnPaintBackground(PaintEventArgs e)
+    {
+        using (LinearGradientBrush brush = new LinearGradientBrush(this.ClientRectangle, Color1, Color2, GradientMode))
         {
-            this.DoubleBuffered = true;   // يمنع الفليكر
-            this.ResizeRedraw = true;     // يعيد الرسم عند تغيير الحجم
-        }
-
-        protected override void OnPaint(PaintEventArgs e)
-        {
-            using (LinearGradientBrush brush = new LinearGradientBrush(this.ClientRectangle, Color1, Color2, GradientMode))
-            {
-                e.Graphics.FillRectangle(brush, this.ClientRectangle);
-            }
+            e.Graphics.FillRectangle(brush, this.ClientRectangle);
         }
     }
 }

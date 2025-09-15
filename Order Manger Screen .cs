@@ -19,7 +19,7 @@ namespace Order_Manager
     public partial class Order_Manger_Screen : Form
     {
 
-
+        InfoProduct Product;
 
         Root Data;
 
@@ -63,16 +63,11 @@ namespace Order_Manager
 
 
             InitializeComponent();
-
-            // استبدال البانل العادي بتدرج
-            GradientPanel gradientPanel = new GradientPanel();
-            gradientPanel.Dock = DockStyle.Fill;
-
-            // إذا كنت تريد أن يحل محل panelProductsData
-            gradientPanel.Name = "panelProductsData";
-            this.Controls.Remove(panelProductsData);
-            this.Controls.Add(gradientPanel);
-            panelProductsData = gradientPanel;
+            this.DoubleBuffered = true;
+            this.SetStyle(ControlStyles.AllPaintingInWmPaint |
+                          ControlStyles.UserPaint |
+                          ControlStyles.OptimizedDoubleBuffer, true);
+            this.UpdateStyles();
 
         }
 
@@ -80,7 +75,11 @@ namespace Order_Manager
         {
 
 
-
+            LoadData();
+            Product = new InfoProduct();
+            Product.StartInfoProducts();
+            ShowOrder(0);
+            UpdateScroll();
             //START - Edit Background and Color For Panel , DataGridView , Text
             panelAndDataGridViewEditBackg();
             someLabelForEditColor();
@@ -88,9 +87,7 @@ namespace Order_Manager
             //END 
 
 
-
-            LoadData();
-            ShowOrder(1);
+            ConvertFromParent();
         }
 
         private void ShowOrder(int index)
@@ -119,16 +116,29 @@ namespace Order_Manager
             int row = 1;
             foreach (var p in order.products)
             {
-                tableLayoutPanelProducts.RowStyles.Add(new RowStyle(SizeType.Absolute, 70));
+                var match = Product.Products.FirstOrDefault(x => x.Product_SKU == p.sku);
+                if (match != null)
+                {
+                    tableLayoutPanelProducts.RowStyles.Add(new RowStyle(SizeType.Absolute, 70));
 
-                tableLayoutPanelProducts.RowCount++;
-
-                tableLayoutPanelProducts.Controls.Add(CreateCellLabel(p.name), 0, row);
-                tableLayoutPanelProducts.Controls.Add(CreateCellLabel(p.sku), 1, row);
-                tableLayoutPanelProducts.Controls.Add(CreateCellLabel(p.qty.ToString()), 2, row);
+                    tableLayoutPanelProducts.RowCount++;
 
 
-                row++;
+                    tableLayoutPanelProducts.Controls.Add(CreateCellLabel(match.Product_Name), 0, row);
+                    tableLayoutPanelProducts.Controls.Add(CreateCellLabel(match.Product_SKU), 1, row);
+                    tableLayoutPanelProducts.Controls.Add(CreateCellLabel(p.qty.ToString()), 2, row);
+
+                    labelCOUSTName.Text = order.customer_name;
+                    labelCOUSTNum.Text = order.phone.ToString();
+                    labelCoustAddress.Text = order.address.ToString();
+
+                    row++;
+                }
+                else
+                {
+                    MessageBox.Show("لم يتم سحب البيانات");
+                }
+
             }
         }
 
@@ -146,18 +156,19 @@ namespace Order_Manager
 
         private Label CreateCellLabel(string text)
         {
+
             return new Label
             {
                 Text = text,
                 AutoSize = true,
                 ForeColor = Color.White,
+                BackColor = Color.Transparent,  // <-- مهم
                 Font = new Font("Tahoma", 16, FontStyle.Regular),
                 Anchor = AnchorStyles.None,
-                Margin = new Padding(20) // مسافة خفيفة
+                Margin = new Padding(20)
             };
+
         }
-
-
 
         private void LoadData()
         {
@@ -165,8 +176,6 @@ namespace Order_Manager
             Data = JsonSerializer.Deserialize<Root>(json);
 
         }
-
-
 
 
         private void SaveOrders(List<Order> orders)
@@ -185,10 +194,6 @@ namespace Order_Manager
 
         bool loadingData = false;
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         //Colors 
         private void someLabelForEditColor()
@@ -198,48 +203,88 @@ namespace Order_Manager
             labelTitleBarcode.ForeColor = Color.White;
             labelTitleQuantity.ForeColor = Color.White;
 
-            ////
-            //labelProduct.ForeColor = Color.White;
-            //labelBarcode.ForeColor = Color.White;
-            //labelPrice.ForeColor = Color.White;
         }
         private void panelAndDataGridViewEditBackg()
         {
-            panelHeaderTextTable.BackColor = Color.FromArgb(255, 44, 83, 100); // #2C5364
-            panelHeaderTextTable.BackColor = Color.FromArgb(255, 32, 58, 67);  // #203A43
+            // جدول المنتجات
 
+            tableLayoutPanelProducts.BackColor = Color.Transparent;
 
+            // الهيدر
+            panelHeader.Dock = DockStyle.Top;
+            panelHeader.BackColor = Color.FromArgb(100, 0, 0, 0); // أسود شبه شفاف
 
+            // Panel Products
+            panelProductsData.BackColor = Color.FromArgb(120, Color.Black);
+            panelProductsData.Height = 700;
+
+            //Panel Info Coustomer
+            panelinfoCOUST.Width = 500;
+            panelinfoCOUST.Height = 600;
+            panelinfoCOUST.BackColor = Color.FromArgb(120, Color.Black);
+
+            // فقط إذا كنت تبغى لون واحد للهيدر النصوص
+            panelHeaderTextTable.BackColor = Color.Transparent;
         }
 
 
-        // Edit Background Color For Palne
-        //public void SetGradientBackground(Panel panel)
-        //{
+        //Convert Backg
+        private void ConvertFromParent()
+        {
+            lblTitleOrderNum.Parent = panelHeader;
+            lblTitleOrderNum.BackColor = Color.Transparent;
 
-        //    panel.Paint += (s, e) =>
-        //    {
-        //        // الألوان مثل ما عندك في CSS (#2c3e50 -> #bdc3c7)
-        //        Color color1 = ColorTranslator.FromHtml("#2c3e50");
-        //        Color color2 = ColorTranslator.FromHtml("#bdc3c7");
+            lblOrderId.Parent = panelHeader;
+            lblOrderId.BackColor = Color.Transparent;
 
-        //        // اتجاه التدرج (من اليسار لليمين: 0 درجة)
-        //        using (LinearGradientBrush brush = new LinearGradientBrush(
-        //            panel.ClientRectangle,
-        //            color1,
-        //            color2,
-        //            LinearGradientMode.Horizontal))
-        //        {
-        //            e.Graphics.FillRectangle(brush, panel.ClientRectangle);
-        //        }
-        //    };
+            label2.Parent = panelHeader;
+            label2.BackColor = Color.Transparent;
 
-        //}
+            lblTitleShipping.Parent = panelHeader;
+            lblTitleShipping.BackColor = Color.Transparent;
 
+            currentShipping.Parent = panelHeader;
+            currentShipping.BackColor = Color.Transparent;
+
+
+            //Panel Info Coustomer
+
+        }
+        private void UpdateScroll()
+        {
+            // يخلي الفورم يقرر إذا يحتاج Scroll بناءً على حجم panelProductsData
+            this.AutoScroll = true;
+            this.AutoScrollMinSize = new Size(panelProductsData.Width, panelProductsData.Height + 600);
+            this.ScrollControlIntoView(panelProductsData);
+
+        }
+
+        //Event
+        int currentIndex = 0; // متغير على مستوى الكلاس
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+
+            if (Data != null && Data.orders != null && currentIndex < Data.orders.Count - 1)
+            {
+                currentIndex++;
+                ShowOrder(currentIndex);
+
+            }
+        }
+
+        private void btnPrev_Click(object sender, EventArgs e)
+        {
+            if (Data != null && Data.orders != null && currentIndex > 0)
+            {
+                currentIndex--;
+                ShowOrder(currentIndex);
+
+            }
+
+        }
     }
-
-
 }
+
 //private void dgvOrders_CurrentCellDirtyStateChanged(object sender, EventArgs e)
 //{
 //    if (dgvOrders.IsCurrentCellDirty)

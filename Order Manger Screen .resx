@@ -117,4 +117,958 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblTitleShipping.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblTitleShipping.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 30pt</value>
+  </data>
+  <data name="lblTitleShipping.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 32</value>
+  </data>
+  <data name="lblTitleShipping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 54</value>
+  </data>
+  <data name="lblTitleShipping.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTitleShipping.Text" xml:space="preserve">
+    <value>شركة الشحن</value>
+  </data>
+  <data name="&gt;&gt;lblTitleShipping.Name" xml:space="preserve">
+    <value>lblTitleShipping</value>
+  </data>
+  <data name="&gt;&gt;lblTitleShipping.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitleShipping.Parent" xml:space="preserve">
+    <value>panelHeader</value>
+  </data>
+  <data name="&gt;&gt;lblTitleShipping.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 26.25pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>948, 39</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 47</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>الفاتورة</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelHeader</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="currentShipping.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="currentShipping.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 26.25pt</value>
+  </data>
+  <data name="currentShipping.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 46</value>
+  </data>
+  <data name="currentShipping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 47</value>
+  </data>
+  <data name="currentShipping.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="currentShipping.Text" xml:space="preserve">
+    <value>اليمامة</value>
+  </data>
+  <data name="&gt;&gt;currentShipping.Name" xml:space="preserve">
+    <value>currentShipping</value>
+  </data>
+  <data name="&gt;&gt;currentShipping.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;currentShipping.Parent" xml:space="preserve">
+    <value>panelHeader</value>
+  </data>
+  <data name="&gt;&gt;currentShipping.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblOrderId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblOrderId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOrderId.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 26.25pt</value>
+  </data>
+  <data name="lblOrderId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1411, 46</value>
+  </data>
+  <data name="lblOrderId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 47</value>
+  </data>
+  <data name="lblOrderId.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblOrderId.Text" xml:space="preserve">
+    <value>لايوجد رقم طلب</value>
+  </data>
+  <data name="lblOrderId.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblOrderId.Name" xml:space="preserve">
+    <value>lblOrderId</value>
+  </data>
+  <data name="&gt;&gt;lblOrderId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOrderId.Parent" xml:space="preserve">
+    <value>panelHeader</value>
+  </data>
+  <data name="&gt;&gt;lblOrderId.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelProductsData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="panelProductsData.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelProducts.Name" xml:space="preserve">
+    <value>tableLayoutPanelProducts</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelProducts.Type" xml:space="preserve">
+    <value>Order_Manager.DoubleBufferedTableLayoutPanel, Order Manager, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelProducts.Parent" xml:space="preserve">
+    <value>panelProductsData</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelProducts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanelProducts.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Percent,52.76968,Percent,47.23032,Absolute,266" /&gt;&lt;Rows Styles="Percent,49.39759" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="panelProductsData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>763, 449</value>
+  </data>
+  <data name="panelProductsData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1164, 432</value>
+  </data>
+  <data name="panelProductsData.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panelProductsData.Name" xml:space="preserve">
+    <value>panelProductsData</value>
+  </data>
+  <data name="&gt;&gt;panelProductsData.Type" xml:space="preserve">
+    <value>Order_Manager.DoubleBufferedPanel, Order Manager, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelProductsData.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;panelProductsData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanelProducts.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tableLayoutPanelProducts.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tableLayoutPanelProducts.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanelProducts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 24pt</value>
+  </data>
+  <data name="tableLayoutPanelProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanelProducts.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="tableLayoutPanelProducts.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1152, 432</value>
+  </data>
+  <data name="tableLayoutPanelProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelProducts.Name" xml:space="preserve">
+    <value>tableLayoutPanelProducts</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelProducts.Type" xml:space="preserve">
+    <value>Order_Manager.DoubleBufferedTableLayoutPanel, Order Manager, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelProducts.Parent" xml:space="preserve">
+    <value>panelProductsData</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelProducts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanelProducts.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Percent,52.76968,Percent,47.23032,Absolute,266" /&gt;&lt;Rows Styles="Percent,49.39759" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="panelHeaderTextTable.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel8.Name" xml:space="preserve">
+    <value>flowLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel8.Parent" xml:space="preserve">
+    <value>panelHeaderTextTable</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel7.Name" xml:space="preserve">
+    <value>flowLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel7.Parent" xml:space="preserve">
+    <value>panelHeaderTextTable</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel9.Name" xml:space="preserve">
+    <value>flowLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel9.Parent" xml:space="preserve">
+    <value>panelHeaderTextTable</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelHeaderTextTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 315</value>
+  </data>
+  <data name="panelHeaderTextTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1263, 96</value>
+  </data>
+  <data name="panelHeaderTextTable.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;panelHeaderTextTable.Name" xml:space="preserve">
+    <value>panelHeaderTextTable</value>
+  </data>
+  <data name="&gt;&gt;panelHeaderTextTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelHeaderTextTable.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;panelHeaderTextTable.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelTitleProduct.Name" xml:space="preserve">
+    <value>labelTitleProduct</value>
+  </data>
+  <data name="&gt;&gt;labelTitleProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitleProduct.Parent" xml:space="preserve">
+    <value>flowLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;labelTitleProduct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flowLayoutPanel8.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="flowLayoutPanel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>829, 23</value>
+  </data>
+  <data name="flowLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 46</value>
+  </data>
+  <data name="flowLayoutPanel8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel8.Name" xml:space="preserve">
+    <value>flowLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel8.Parent" xml:space="preserve">
+    <value>panelHeaderTextTable</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelTitleProduct.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTitleProduct.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 26.25pt</value>
+  </data>
+  <data name="labelTitleProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 0</value>
+  </data>
+  <data name="labelTitleProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 47</value>
+  </data>
+  <data name="labelTitleProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelTitleProduct.Text" xml:space="preserve">
+    <value> المنتج</value>
+  </data>
+  <data name="&gt;&gt;labelTitleProduct.Name" xml:space="preserve">
+    <value>labelTitleProduct</value>
+  </data>
+  <data name="&gt;&gt;labelTitleProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitleProduct.Parent" xml:space="preserve">
+    <value>flowLayoutPanel8</value>
+  </data>
+  <data name="&gt;&gt;labelTitleProduct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelTitleBarcode.Name" xml:space="preserve">
+    <value>labelTitleBarcode</value>
+  </data>
+  <data name="&gt;&gt;labelTitleBarcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitleBarcode.Parent" xml:space="preserve">
+    <value>flowLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;labelTitleBarcode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flowLayoutPanel7.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="flowLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 24</value>
+  </data>
+  <data name="flowLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 46</value>
+  </data>
+  <data name="flowLayoutPanel7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel7.Name" xml:space="preserve">
+    <value>flowLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel7.Parent" xml:space="preserve">
+    <value>panelHeaderTextTable</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelTitleBarcode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTitleBarcode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 26.25pt</value>
+  </data>
+  <data name="labelTitleBarcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 0</value>
+  </data>
+  <data name="labelTitleBarcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 47</value>
+  </data>
+  <data name="labelTitleBarcode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelTitleBarcode.Text" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="&gt;&gt;labelTitleBarcode.Name" xml:space="preserve">
+    <value>labelTitleBarcode</value>
+  </data>
+  <data name="&gt;&gt;labelTitleBarcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitleBarcode.Parent" xml:space="preserve">
+    <value>flowLayoutPanel7</value>
+  </data>
+  <data name="&gt;&gt;labelTitleBarcode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelTitleQuantity.Name" xml:space="preserve">
+    <value>labelTitleQuantity</value>
+  </data>
+  <data name="&gt;&gt;labelTitleQuantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitleQuantity.Parent" xml:space="preserve">
+    <value>flowLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;labelTitleQuantity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flowLayoutPanel9.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="flowLayoutPanel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="flowLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 46</value>
+  </data>
+  <data name="flowLayoutPanel9.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel9.Name" xml:space="preserve">
+    <value>flowLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel9.Parent" xml:space="preserve">
+    <value>panelHeaderTextTable</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelTitleQuantity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTitleQuantity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 26.25pt</value>
+  </data>
+  <data name="labelTitleQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 0</value>
+  </data>
+  <data name="labelTitleQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 47</value>
+  </data>
+  <data name="labelTitleQuantity.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelTitleQuantity.Text" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="&gt;&gt;labelTitleQuantity.Name" xml:space="preserve">
+    <value>labelTitleQuantity</value>
+  </data>
+  <data name="&gt;&gt;labelTitleQuantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitleQuantity.Parent" xml:space="preserve">
+    <value>flowLayoutPanel9</value>
+  </data>
+  <data name="&gt;&gt;labelTitleQuantity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPrev.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnPrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
+  </data>
+  <data name="btnPrev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 922</value>
+  </data>
+  <data name="btnPrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 54</value>
+  </data>
+  <data name="btnPrev.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnPrev.Text" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="&gt;&gt;btnPrev.Name" xml:space="preserve">
+    <value>btnPrev</value>
+  </data>
+  <data name="&gt;&gt;btnPrev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPrev.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;btnPrev.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14.25pt</value>
+  </data>
+  <data name="btnNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 922</value>
+  </data>
+  <data name="btnNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 54</value>
+  </data>
+  <data name="btnNext.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnNext.Text" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Name" xml:space="preserve">
+    <value>btnNext</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;btnNext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelinfoCOUST.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelCoustAddress.Name" xml:space="preserve">
+    <value>labelCoustAddress</value>
+  </data>
+  <data name="&gt;&gt;labelCoustAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCoustAddress.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;labelCoustAddress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTNum.Name" xml:space="preserve">
+    <value>labelCOUSTNum</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTNum.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTNum.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTName.Name" xml:space="preserve">
+    <value>labelCOUSTName</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTName.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelinfoCOUST.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 449</value>
+  </data>
+  <data name="panelinfoCOUST.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 437</value>
+  </data>
+  <data name="panelinfoCOUST.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panelinfoCOUST.Name" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;panelinfoCOUST.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelinfoCOUST.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;panelinfoCOUST.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelHeader.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lblTitleOrderNum.Name" xml:space="preserve">
+    <value>lblTitleOrderNum</value>
+  </data>
+  <data name="&gt;&gt;lblTitleOrderNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitleOrderNum.Parent" xml:space="preserve">
+    <value>panelHeader</value>
+  </data>
+  <data name="&gt;&gt;lblTitleOrderNum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 3</value>
+  </data>
+  <data name="panelHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1983, 151</value>
+  </data>
+  <data name="panelHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;panelHeader.Name" xml:space="preserve">
+    <value>panelHeader</value>
+  </data>
+  <data name="&gt;&gt;panelHeader.Type" xml:space="preserve">
+    <value>Order_Manager.DoubleBufferedPanel, Order Manager, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelHeader.Parent" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;panelHeader.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="backgroundPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="backgroundPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="backgroundPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1993, 988</value>
+  </data>
+  <data name="backgroundPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;backgroundPanel.Name" xml:space="preserve">
+    <value>backgroundPanel</value>
+  </data>
+  <data name="&gt;&gt;backgroundPanel.Type" xml:space="preserve">
+    <value>GradientPanel, Order Manager, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;backgroundPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backgroundPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelCoustAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCoustAddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt</value>
+  </data>
+  <data name="labelCoustAddress.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCoustAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 400</value>
+  </data>
+  <data name="labelCoustAddress.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 0</value>
+  </data>
+  <data name="labelCoustAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 37</value>
+  </data>
+  <data name="labelCoustAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelCoustAddress.Text" xml:space="preserve">
+    <value>محمد</value>
+  </data>
+  <data name="labelCoustAddress.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;labelCoustAddress.Name" xml:space="preserve">
+    <value>labelCoustAddress</value>
+  </data>
+  <data name="&gt;&gt;labelCoustAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCoustAddress.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;labelCoustAddress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 21.75pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 342</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 40</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>:عنوان العميل</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 21.75pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 191</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 40</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>:رقم العميل</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 21.75pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 81</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 40</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>:الإسم</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelCOUSTNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCOUSTNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt</value>
+  </data>
+  <data name="labelCOUSTNum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCOUSTNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 212</value>
+  </data>
+  <data name="labelCOUSTNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 37</value>
+  </data>
+  <data name="labelCOUSTNum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelCOUSTNum.Text" xml:space="preserve">
+    <value>محمد</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTNum.Name" xml:space="preserve">
+    <value>labelCOUSTNum</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTNum.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTNum.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelCOUSTName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCOUSTName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20.25pt</value>
+  </data>
+  <data name="labelCOUSTName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 84</value>
+  </data>
+  <data name="labelCOUSTName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 37</value>
+  </data>
+  <data name="labelCOUSTName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelCOUSTName.Text" xml:space="preserve">
+    <value>محمد</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTName.Name" xml:space="preserve">
+    <value>labelCOUSTName</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTName.Parent" xml:space="preserve">
+    <value>panelinfoCOUST</value>
+  </data>
+  <data name="&gt;&gt;labelCOUSTName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblTitleOrderNum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblTitleOrderNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitleOrderNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 30pt</value>
+  </data>
+  <data name="lblTitleOrderNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1690, 39</value>
+  </data>
+  <data name="lblTitleOrderNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 54</value>
+  </data>
+  <data name="lblTitleOrderNum.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblTitleOrderNum.Text" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="lblTitleOrderNum.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;lblTitleOrderNum.Name" xml:space="preserve">
+    <value>lblTitleOrderNum</value>
+  </data>
+  <data name="&gt;&gt;lblTitleOrderNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitleOrderNum.Parent" xml:space="preserve">
+    <value>panelHeader</value>
+  </data>
+  <data name="&gt;&gt;lblTitleOrderNum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1993, 988</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ادارة الطلبات</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Order_Manger_Screen</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
